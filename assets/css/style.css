@@ -5,13 +5,13 @@ body{
     text-align: center;
     }
     .container{
-        background-color: #7e4ad3;
+        background-color: #A23B72;
         width: 80%;
         margin:0 auto;
     }
     h1.title{
         text-transform: uppercase;
-        color: aqua;
+        color: #F18F01;
         text-align: left;
         font-weight: 300;
         font-size: 42px;
@@ -19,9 +19,33 @@ body{
     }
     h1.title:hover{
         text-decoration: overline;
-        color:#B4EDD2 ;
+        color:#2E86AB ;
         transition: 0.5s ease-in-out;
-        
-
-
-    }
+         }
+         /* Navigation bar styles */
+         .navbar{
+             background-color: #d65780;
+             overflow: hidden;
+             }
+             .navbar ul li{
+                 list-style-type: none;
+                 float: left;
+                 padding: 20px 15px;
+                 border-right: 5px solid #DE0D92 ;
+             }
+             .navbar ul li a{
+                 text-decoration: none;
+                 color: white;
+                 text-transform: uppercase;
+                 font-weight: 400;
+                 font-size: 24px;
+                 font-style: italic;
+             }
+             .navbar ul li:hover{
+                 background-color: #C73E1D;
+                 }
+                 .navbar ul li:hover a {
+                    text-decoration: underline;
+                    color: black; 
+                    transition: .7s ease-in-out;
+                 }
